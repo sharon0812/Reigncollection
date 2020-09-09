@@ -1,5 +1,6 @@
 body{
     background-color: brown;
+    text-align: center;
 }
 #pics #img{
     width: 35%;
@@ -7,9 +8,12 @@ body{
   }
   nav{
       width: 1500px;
-      height: 100px;
+      /* height: 100px; */
       padding-inline-end: 0%;
       background-color: #E5E5E5;
+      padding-top: 20px;
+      position: fixed;
+      
   }
   nav>ul>li{
       display: inline-block;
@@ -17,13 +21,57 @@ body{
       text-align: left;
   }
   #pics{
-      display: inline-flex;
-      flex-direction: row;
-      justify-content: space-between;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 4%;
   }
-  
+
+
   h3{
-      text-align-last: left ;
+      text-align:center ;
       color:blue;
   }
+  h1{
+      position: fixed;
+      padding-top: 0;
+     
+  }
+  .first{
+      position: fixed;
+      /* font-size: 30px; */
+      
+  }
+  h2{
+      padding-top: 10%;
+  }
+  #class{
+      text-align: center;
+      display: flex;
+  }
+  footer{
+      text-align: center;
+      font-size: 20px;
+      margin-top:2x;
+  }
+  #galary{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-top: 6%; 
+  }
   
+
+
+.column {
+    float: left;
+    width: 20%;
+    padding-left: 10%;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
