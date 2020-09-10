@@ -75,3 +75,8 @@ body{
     clear: both;
     display: table;
   }
+  .photo img{
+      height: 700px;
+      width: 700p;
+      border-radius: 10px;
+  }
