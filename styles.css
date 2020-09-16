@@ -40,6 +40,8 @@ body{
   }
   .first{
       position: fixed;
+      font-size: 70px;
+      padding-left: 15%;
       /* font-size: 30px; */
       
   }
@@ -60,6 +62,7 @@ body{
     flex-direction:row;
     justify-content: space-between;
     padding-top: 6%; 
+    scroll-padding-top: 15%;
   }
   
 
@@ -69,15 +72,55 @@ body{
     width: 20%;
     padding-left: 10%;
   }
-  
-  /* Clear floats after image containers */
+  .colomn img{
+      widows: 100%;
+      height: min-content;
+  }
+  .column p{
+      text-align: center;
+  }
+  /* Clear fl{oats after image containers */
   .row::after {
     content: "";
     clear: both;
     display: table;
   }
   .photo img{
-      height: 700px;
-      width: 700p;
+      height: 300px;
+      width: 300p;
       border-radius: 10px;
+  }
+  h5{
+      font-size: 40px;
+  }
+  #gallery{
+      padding-top: 15%;
+  }
+  #services{
+      padding-top: 20%;
+  }
+  #services h4{
+      font-size: 30px;
+  }
+  #services p{
+      padding-left: 2%;
+  }
+  #contact{
+      padding-top:15%;
+  }
+  h5{
+      font-size: 30px;
+  }
+  #first{
+      font-size: 70px;
+      padding-left: 15;
+  }
+  #About{
+      padding-top: 15%;
+  }
+  #About h3{
+      font-size: 40px;
+  }
+  #About p{
+      font-size: 30px;
   }
